@@ -1,0 +1,32 @@
+@charset "UFT-8";
+
+/*Footer*/
+#footer_global {
+  width: 100%;
+  height: auto;
+}
+
+/*Versiculo*/
+p {
+  margin-bottom: 0;
+  margin-top: 160px;
+  text-align: center;
+  color: var(--color-purple2);
+}
+
+/*Flowersr*/
+#flowers_left {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 430px;
+}
+
+#flowers_right {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1090px;
+  top: 430px;
+}
+

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url(/CSS/footer.css);
+@import url(/CSS/buttons.css);
+@import url(/CSS/lista_de_presentes.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&family=Source+Serif+4:opsz@8..60&display=swap");
+
+:root {
+  --color-purple1: #7700ae;
+  --color-purple2: #a631dc;
+  --color-green1: #53cc2b;
+  --primal-font: "Roboto Serif", serif;
+}
+
+/*HEADER*/
+#invitation_header {
+  width: 100%;
+  height: auto;
+}
+
+/*Abreu & Samires*/
+h1 {
+  margin-top: 0;
+  font-size: 35px;
+  margin-bottom: 0;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: var(--color-purple1);
+  font-family: var(--primal-font);
+}
+
+/*Frase embaixo do h1*/
+h5 {
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: center;
+  color: var(--color-purple1);
+  font-family: var(--primal-font);
+}
+
+@media screen and (max-width: 758px ) {
+  body {
+    display: block;
+    width: 375px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 70px 70px 70px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 30px;
+
+  }
+}
