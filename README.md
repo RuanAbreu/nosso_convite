@@ -1,2 +1,0 @@
-# convite-abreu-e-samires
-
