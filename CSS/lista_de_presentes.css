@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  background-image: url(/Assets/backcss.png);
 }
 
 h1 {
@@ -27,16 +27,8 @@ h1 {
   justify-items: center;
   gap: 15px;
 }
-/*retangulo superio*/
-.retangle {
-  width: 100%;
-  height: 35px;
-  background-color: var(--color-purple1);
-}
 
 /*Lista com os itens*/
-
-
 #flowers_left {
   position: absolute;
   width: 150px;

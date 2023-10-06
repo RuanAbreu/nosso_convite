@@ -10,7 +10,9 @@
   --color-green1: #53cc2b;
   --primal-font: "Roboto Serif", serif;
 }
-
+body {
+  background-image: url(/Assets/backcss.png);
+}
 /*HEADER*/
 #invitation_header {
   width: 100%;
@@ -39,6 +41,7 @@ h5 {
   font-family: var(--primal-font);
 }
 
+/*responsivo*/
 @media screen and (max-width: 758px ) {
   body {
     display: block;
@@ -50,7 +53,8 @@ h5 {
   }
 
   p {
-    text-align: center;
+   font-style: italic;
+   text-align: center;
   }
 
   .buttons {
