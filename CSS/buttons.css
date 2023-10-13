@@ -15,12 +15,14 @@
 }
 
 /*Texto e tamanho da caixa do botão*/
-button {
+.bt-index {
   height: 35px;
   width: 200px;
   color: #fff;
   cursor: pointer;
+  border: none;
   border-radius: 20px;
   text-align: center;
+  box-shadow: rgb(0, 0, 0.5);
   background-color: var(--color-purple2);
 }
