@@ -91,7 +91,7 @@ section {
   body {
     display: block;
     width: 380px;
-    background-image: url(/assets/backresponsive.png);
+    background-image: url(Assets/backresponsive.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
