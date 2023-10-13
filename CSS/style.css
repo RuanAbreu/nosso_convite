@@ -69,6 +69,6 @@ h5 {
     align-items: center;
     align-content: center;
     padding-top: 30px;
-
+     background-color: var(--color-purple1);
   }
 }
