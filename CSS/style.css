@@ -46,7 +46,7 @@ h5 {
   body {
     display: block;
     width: 375px;
-    background-image: url(/Assets/backresponsive.png);
+    background-image: url(Assets/backresponsive.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
