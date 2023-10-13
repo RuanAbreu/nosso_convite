@@ -15,7 +15,7 @@
 }
 
 body {
-  background-image: url(/assets/backcss.png);
+  background-image: url(Aassets/backcss.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--text-color);
