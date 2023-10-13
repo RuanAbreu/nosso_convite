@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*Google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/*Vai ser usado em todo o código*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(/assets/backcss.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text-color);
+}
+
+/*Variaveis*/
+:root {
+  --main-color: #7700ae;
+  --text-color: #000;
+  --bg-color: #ffffdd;
+
+}
+
+/*Imagens*/
+img {
+  width: 100%;
+}
+
+/*Seção lista de presentes*/
+section {
+  padding: 4rem 0 3rem;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--main-color);
+}
+
+.list {
+  margin-top: 2rem;
+}
+
+/*Conteudo lista*/
+.list-content {
+  gap: 2rem;
+  display: grid;
+  margin: 0 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+}
+
+/*Itens da lista*/
+.product-box {
+  position: static;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--bg-color);
+  text-transform: uppercase;
+  background-color: var(--main-color);
+}
+
+.price {
+  font-weight: 500;
+}
+
+/*responsivo*/
+@media screen and (max-width: 758px ) {
+  body {
+    display: block;
+    width: 380px;
+    background-image: url(/assets/backresponsive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
