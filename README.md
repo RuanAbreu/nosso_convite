@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-   Acesse o nosso <a href="/index.html">Convite</a>
+   Acesse o nosso <a href="https://ruanabreu.github.io/nosso_convite/">Convite</a>
  
 </p>
 
