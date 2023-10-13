@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-    <a href="#">Projeto</a>
+   Acesse o nosso <a href="#">Convite</a>
  
 </p>
 
